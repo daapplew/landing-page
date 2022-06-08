@@ -23,7 +23,7 @@
  * 
 */
 const navBarMenu = document.getElementsByClassName('navbar__menu');
-const navBarList = document.getElementById('navbar__list');
+const ul = document.getElementById('navbar__list');
 
 /**
  * End Global Variables
@@ -40,8 +40,12 @@ const navBarList = document.getElementById('navbar__list');
 */
 
 // build the nav
-
-
+ul.innerHTML = `
+    <li><a class= "menu__link"></a></li>; 
+    <li><a "class= "menu__link"></a></li>; 
+    <li><a class= "menu__link"></a></li>;`;
+navBarMenu.append(navBarList);
+document.body.appendChild(navBarMenus);
 // Add class 'active' to section when near top of viewport
 
 
