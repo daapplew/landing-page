@@ -40,12 +40,12 @@ const ul = document.getElementById('navbar__list');
 */
 
 // build the nav
-ul.innerHTML = `
-    <li><a class= "menu__link"></a></li>; 
-    <li><a "class= "menu__link"></a></li>; 
-    <li><a class= "menu__link"></a></li>;`;
-navBarMenu.append(navBarList);
-document.body.appendChild(navBarMenus);
+// ul.innerHTML = `
+//     <li><a href="">section 1</a></li>; 
+//     <li><a >section 2</a></li>; 
+//     <li><a >section 3</a></li>;`;
+// navBarMenu.append(navBarList);
+// document.body.appendChild(navBarMenus);
 // Add class 'active' to section when near top of viewport
 
 
